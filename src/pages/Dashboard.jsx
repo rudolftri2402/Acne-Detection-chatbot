@@ -170,6 +170,7 @@ function Dashboard() {
           <a href="#karakteristik">Karakteristik Kulit</a>
           <a href="#kandungan">Kandungan Aktif</a>
           <a href="#rutinitas">Rutinitas Harian</a>
+          <Link to="/produk">Produk</Link>
         </nav>
 
         <Link to="/chatbot" className="navbar-consult">
@@ -201,11 +202,15 @@ function Dashboard() {
 
             <div className="hero-buttons">
               <Link to="/chatbot" className="button-primary">
-                Mulai Konsultasi Kulit
+              Mulai Konsultasi Kulit
+              </Link>
+
+              <Link to="/produk" className="button-secondary">
+              Lihat Katalog Produk
               </Link>
 
               <a href="#karakteristik" className="button-secondary">
-                Pelajari Karakter Kulit
+              Pelajari Karakter Kulit
               </a>
             </div>
 
